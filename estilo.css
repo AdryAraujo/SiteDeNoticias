@@ -31,6 +31,17 @@ body{
 
 }
 
+body.home #navegacao-horizontal a#home,
+body.brasil #navegacao-horizontal a#brasil,
+body.internacional #navegacao-horizontal a#internacional,
+body.fotos #navegacao-horizontal a#fotos,
+body.economia #navegacao-horizontal a#economia,
+body.saude #navegacao-horizontal a#saude {
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
+
 ul{
     margin: 0;
     padding: 0;
@@ -64,4 +75,24 @@ ul{
 
 #topo ul a:hover{
     background: #69001d;
+}
+
+#conteudo{
+    background: #f5f5f5;
+    margin-top: 60px;
+}
+
+#primario{
+    width: 270px;
+
+}
+
+#secundario{
+    width: 270px;
+    
+}
+
+#lateral{
+    width: 180px;
+    
 }
